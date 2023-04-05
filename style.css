@@ -3,6 +3,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* Header */
 header {
     display: flex;
     top: 0;
@@ -12,11 +13,11 @@ header {
     justify-content: space-between;
     background-color: #1f2937;
     height: 72px; 
+    justify-content: space-around;
 }
 
 .logo {
     color: white;
-    padding-left: 100px;
     font-weight: bold;
     font-size: 24px;
 }
@@ -28,7 +29,6 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 16px;
-    padding-right: 100px;
 }
 
 a {
@@ -38,8 +38,20 @@ a {
     font-weight: 100;
 }
 
+/* Main One */
+
 .main-one {
     background-color: #1f2937;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-one-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 h1 {
@@ -51,4 +63,60 @@ h1 {
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 400px;
 }
+
+.first-button {
+    padding: 8px 16px;
+    max-width: 150px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.shibainu {
+    height: 300px;
+    justify-content: flex-end;
+}
+
+/* main-two */
+
+.main-two {
+    height: 400px;
+}
+
+h2 {
+    text-align: center;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.dodge {
+    width: 100px;
+    height: 100px;
+}
+
+.dodge-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-direction: column;
+
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
