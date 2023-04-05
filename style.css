@@ -99,10 +99,6 @@ h2 {
     justify-content: center;
 }
 
-.dodge-container {
-
-}
-
 .dodge {
     width: 200px;
     border: 5px solid #3882f6;
@@ -111,6 +107,7 @@ h2 {
 
 .text {
     text-align: center;
+    margin-top: 16px;
 }
 /* main-three */
 
@@ -136,6 +133,41 @@ span {
     display: block;
     margin-left: 550px;
     margin-top: 8px;
+}
+
+/* main-four */
+.main-four {
+ color: #f9faf8;
+ height: 250px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.modal {
+    background: #3882f6;
+    width: 900px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.signup-text {
+    color: #E5E7EB;
+}
+.second-button {
+    padding: 8px 32px;
+    max-width: 150px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    font-size: 18px;
+    color: #f9faf8;
 }
 /* footer */
 
