@@ -113,13 +113,14 @@ h2 {
 
 .main-three {
     height: 400px;
-    text-align: center;
+    text-align: left;
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 blockquote {
+    max-width: 800px;
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
@@ -130,8 +131,8 @@ span {
     font-size: 24px;
     font-style: normal;
     display: block;
-    margin-left: 600px;
-    margin-top: 32px;
+    margin-left: 550px;
+    margin-top: 8px;
 }
 /* footer */
 
